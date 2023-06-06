@@ -3,10 +3,17 @@ fun main() {
     cars[1] = "benz"
     println(cars[1])
     println(cars.size)
+    //checks if jeep is i n the array
     if ("jeep" in cars) {
-        println("iko")
+        println("found")
     }
     else{
-        println("haiko")
+        println(" not found")
+    }
+    // prints all elements in the array
+    for (x in cars){
+        println(x)
     }
 }
+
+
