@@ -1,2 +1,2 @@
 # find-element in an array 
-#returns "found" when the element is there else it returns "not found"
+#returns "found" when the element is the array else it returns "not found"
